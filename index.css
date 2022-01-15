@@ -1,0 +1,29 @@
+.gallery {
+  display: flex;
+}
+
+.imgRight > div {
+  width: 100px;
+  height: 100px;
+}
+
+img {
+  height:100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
+
+.middle-section {
+  flex: 50%;
+}
+
+.imgLeft {
+  flex: 25%;
+}
+
+.imgRight {
+  flex: 25%;
+}
