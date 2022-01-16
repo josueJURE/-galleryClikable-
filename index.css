@@ -2,19 +2,14 @@
   display: flex;
 }
 
-.imgRight > div {
-  width: 100px;
-  height: 100px;
-}
 
 img {
+  border: solid black 2px;
+  border-radius: 2px;
   height:100%;
   width: 100%;
   object-fit: cover;
 }
-
-
-
 
 .middle-section {
   flex: 50%;
