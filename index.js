@@ -5,7 +5,11 @@ console.log(middleSection)
 
 for(var i = 0; i < pictures.length; i++) {
   pictures[i].addEventListener("click", function(e) {
-    console.log("I've been clicked on");
-    middleSection.src = e.target.src
+    middleSection.src = e.target.src;
+
+    middleSection.classList.add("animate-imgs")
+    setTimeout(function () {
+      middleSection.classList.remove("animate-imgs")
+    }, 1000)
   });
-}
+};

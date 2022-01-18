@@ -1,5 +1,6 @@
 .gallery {
   display: flex;
+  justify-content: space-between;
 }
 
 
@@ -26,4 +27,15 @@ img {
 
 .imgRight {
   flex: 25%;
+}
+
+.animate-imgs {
+  opacity: 0.5;
+  animation: animate-imgs 0.4s ease-in-out forwards;
+}
+
+@keyframes animate-imgs {
+  100% {
+    opacity: 1;
+  }
 }
