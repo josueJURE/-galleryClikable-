@@ -13,14 +13,14 @@ img {
 
 .middle-section {
   flex: 50%;
-  height: 2000px;
-  width: 100%;
+  /* height: 2000px;
+  width: 100%; */
 }
 
-/* .middle-img {
+.middle-img {
   height: 100%;
   width: 100%;
-} */
+}
 
 .imgLeft {
   flex: 25%;
